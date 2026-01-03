@@ -1,1 +1,1 @@
-console.log("server building")
+console.log("server building");
