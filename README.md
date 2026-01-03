@@ -29,10 +29,6 @@ kanban-mern/
 └── README.md
 
 
-
-
-
-
 ## ⚙️ Prerequisites
 
 Before you begin, ensure you have installed:
@@ -46,7 +42,7 @@ Before you begin, ensure you have installed:
 
 ### 1. Clone the Repository
 
-```bash
+
 git clone <your-repository-url>
 cd kanban-mern
 
@@ -62,3 +58,6 @@ npm run dev
 3. Frontend Setup
 cd frontend
 npm install
+
+Start frontend server:
+npm run dev
