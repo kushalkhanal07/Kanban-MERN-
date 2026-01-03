@@ -17,9 +17,8 @@ export function TaskCard({ task, index, onEdit, onDelete }: TaskCardProps) {
         <div
           ref={provided.innerRef}
           {...provided.draggableProps}
-          className={`task-card group animate-fade-in ${
-            snapshot.isDragging ? 'task-card-dragging' : ''
-          }`}
+          className={`task-card group animate-fade-in ${snapshot.isDragging ? 'task-card-dragging' : ''
+            }`}
         >
           <div className="flex items-start gap-2">
             <div
@@ -28,7 +27,7 @@ export function TaskCard({ task, index, onEdit, onDelete }: TaskCardProps) {
             >
               <GripVertical className="h-4 w-4" />
             </div>
-            
+
             <div className="flex-1 min-w-0">
               <h3 className="font-medium text-foreground leading-snug break-words">
                 {task.title}

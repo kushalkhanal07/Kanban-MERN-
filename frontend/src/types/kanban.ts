@@ -3,6 +3,7 @@ export interface Task {
   title: string;
   description?: string;
   columnId: ColumnId;
+  position?: number;
   createdAt: number;
 }
 

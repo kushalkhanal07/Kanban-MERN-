@@ -50,12 +50,13 @@ export function TaskDialog({
     }
   }, [task, defaultColumnId, open]);
 
+  // TaskDialog.tsx - Update the handleSubmit function
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!title.trim()) return;
 
     onSave({
-      id: task?.id,
+      id: task?.id, // ✅ Make sure this is being passed
       title: title.trim(),
       description: description.trim() || undefined,
       columnId,
