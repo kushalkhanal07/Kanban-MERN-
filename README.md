@@ -12,6 +12,7 @@ A full-stack Kanban board application built with the MERN stack (MongoDB, Expres
 - ✅ **RESTful API** - Clean and structured backend API
 
 ## 🏗️ Project Structure
+```bash
 kanban-mern/
 ├── frontend/ # React + TypeScript + Vite + ShadCN UI
 │ ├── src/
